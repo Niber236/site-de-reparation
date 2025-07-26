@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO OPTIMISATION -->
+    <title>Telstar 9 - Réparation Mobile & Téléphonie Villeneuve-Saint-Georges (94190)</title>
+    <meta name="description" content="Telstar 9 : Expert en réparation mobile, tablettes, PC et vente d'accessoires téléphoniques à Villeneuve-Saint-Georges. Réparation écran cassé, batterie. ☎️ 01 43 89 21 62">
+    <meta name="keywords" content="réparation mobile Villeneuve-Saint-Georges, réparation téléphone 94190, écran cassé, batterie téléphone, accessoires mobile, Telstar 9, réparation tablette, réparation PC">
+    <meta name="author" content="Telstar 9">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph pour réseaux sociaux -->
+    <meta property="og:title" content="Telstar 9 - Réparation Mobile Villeneuve-Saint-Georges">
+    <meta property="og:description" content="Expert en réparation mobile, tablettes et vente d'accessoires. Service rapide et de qualité.">
+    <meta property="og:type" content="business.business">
+    <meta property="og:url" content="https://telstar9.fr">
+    <meta property="og:locale" content="fr_FR">
+    
+    <!-- Données structurées pour Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Telstar 9",
+      "description": "Réparation mobile, tablettes, PC et vente d'accessoires téléphoniques",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "7 Rue Henri Janin",
+        "addressLocality": "Villeneuve-Saint-Georges",
+        "postalCode": "94190",
+        "addressCountry": "FR"
+      },
+      "telephone": "+33143892162",
+      "url": "https://telstar9.fr",
+      "priceRange": "€€",
+      "openingHours": [
+        "Mo-Fr 10:00-19:00",
+        "Sa 10:00-18:00"
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.7333,
+        "longitude": 2.4333
+      },
+      "sameAs": [
+        "https://www.facebook.com/telstar9",
+        "https://www.instagram.com/telstar9"
+      ]
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { filter: drop-shadow(0 0 5px rgba(255, 107, 107, 0.5)); }
+            to { filter: drop-shadow(0 0 20px rgba(78, 205, 196, 0.8)); }
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            transform: translateY(-2px);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 150px 0 100px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            animation: slideInUp 1s ease-out;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            animation: slideInUp 1s ease-out 0.2s both;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            animation: slideInUp 1s ease-out 0.4s both;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Services Section */
+        .services {
+            padding: 100px 0;
+            background: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #333;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            border-radius: 2px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .service-card:hover::before {
+            left: 100%;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1rem;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: white;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* SEO Content Section */
+        .seo-content {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .seo-content h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #333;
+        }
+
+        .seo-content p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            color: #666;
+            line-height: 1.8;
+        }
+
+        /* Info Section */
+        .info {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .info-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .info-content p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+        }
+
+        .info-details {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            font-size: 1.2rem;
+        }
+
+        /* Hours Section */
+        .hours {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+
+        .hours-card {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hours-list {
+            list-style: none;
+            margin-top: 2rem;
+        }
+
+        .hours-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            border-bottom: 1px solid #eee;
+            font-size: 1.1rem;
+        }
+
+        .hours-list li:last-child {
+            border-bottom: none;
+        }
+
+        .day {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .time {
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 3rem 0;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .footer-logo {
+            font-size: 2rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+
+        .footer-text {
+            opacity: 0.8;
+            margin-bottom: 2rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .social-link {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+        }
+
+        /* Scroll animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Telstar 9</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#horaires">Horaires</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1>Telstar 9 - Réparation Mobile Villeneuve-Saint-Georges</h1>
+                <p>Votre expert en réparation mobile, tablettes, PC et vente d'accessoires téléphoniques dans le 94190</p>
+                <a href="#contact" class="cta-button">Contactez-nous au 01 43 89 21 62</a>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title fade-in">Nos Services de Réparation à Villeneuve-Saint-Georges</h2>
+                <div class="services-grid">
+                    <article class="service-card fade-in">
+                        <div class="service-icon">📱</div>
+                        <h3>Réparation Mobile iPhone Samsung</h3>
+                        <p>Réparation d'écrans cassés, remplacement de batteries, problèmes de charge et bien plus encore pour tous types de smartphones iPhone, Samsung, Huawei.</p>
+                    </article>
+                    <article class="service-card fade-in">
+                        <div class="service-icon">📊</div>
+                        <h3>Réparation Tablettes iPad</h3>
+                        <p>Service de réparation complet pour tablettes iPad, Samsung Galaxy Tab : écrans, batteries, connecteurs et diagnostics techniques professionnels.</p>
+                    </article>
+                    <article class="service-card fade-in">
+                        <div class="service-icon">💻</div>
+                        <h3>Réparation PC Ordinateur</h3>
+                        <p>Dépannage et réparation d'ordinateurs portables et fixes, optimisation des performances et récupération de données importantes.</p>
+                    </article>
+                    <article class="service-card fade-in">
+                        <div class="service-icon">🛒</div>
+                        <h3>Vente d'Accessoires Mobile</h3>
+                        <p>Large gamme d'accessoires téléphoniques : coques protection, protections d'écran, chargeurs, écouteurs sans fil et bien plus encore.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="seo-content">
+            <div class="container">
+                <h2>Réparation Mobile Professionnelle à Villeneuve-Saint-Georges (94190)</h2>
+                <p>
+                    <strong>Telstar 9</strong> est votre spécialiste de la réparation mobile à Villeneuve-Saint-Georges dans le Val-de-Marne (94). 
+                    Situés au 7 Rue Henri Janin, nous proposons des services de réparation pour tous types d'appareils électroniques : 
+                    smartphones, tablettes, ordinateurs portables et PC fixes.
+                </p>
+                <p>
+                    Notre équipe de techniciens expérimentés intervient sur toutes les marques : <strong>iPhone, Samsung Galaxy, Huawei, Xiaomi, Oppo</strong> 
+                    et bien d'autres. Que ce soit pour un <strong>écran cassé, une batterie défaillante, un problème de charge</strong> 
+                    ou tout autre dysfonctionnement, nous avons la solution.
+                </p>
+                <p>
+                    En plus de nos services de réparation, nous proposons également une <strong>large gamme d'accessoires téléphoniques</strong> : 
+                    coques de protection, films protecteurs, chargeurs, câbles, écouteurs et accessoires high-tech. 
+                    Tous nos produits sont sélectionnés pour leur qualité et leur compatibilité avec votre appareil.
+                </p>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="container">
+                <div class="info-grid">
+                    <div class="info-content fade-in">
+                        <h2>Pourquoi choisir Telstar 9 à Villeneuve-Saint-Georges ?</h2>
+                        <p>Avec des années d'expérience dans la réparation d'appareils électroniques et la vente d'accessoires, notre équipe de techniciens qualifiés vous garantit un service rapide et de qualité dans le 94190.</p>
+                        <p>Nous utilisons uniquement des pièces de qualité, proposons une large gamme d'accessoires et offrons une garantie sur toutes nos réparations. Votre satisfaction est notre priorité.</p>
+                    </div>
+                    <div class="info-details fade-in" id="contact">
+                        <div class="contact-item" itemscope itemtype="https://schema.org/LocalBusiness">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <strong>Adresse</strong><br>
+                                <span itemprop="address">7 Rue Henri Janin<br>
+                                94190 Villeneuve-Saint-Georges</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <strong>Téléphone</strong><br>
+                                <a href="tel:+33143892162" style="color: white;">01 43 89 21 62</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <strong>Email</strong><br>
+                                <a href="mailto:contact@telstar9.fr" style="color: white;">contact@telstar9.fr</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="horaires" class="hours">
+            <div class="container">
+                <h2 class="section-title fade-in">Horaires d'ouverture - Telstar 9 Villeneuve-Saint-Georges</h2>
+                <div class="hours-card fade-in">
+                    <ul class="hours-list">
+                        <li>
+                            <span class="day">Lundi</span>
+                            <span class="time">10h00 - 19h00</span>
+                        </li>
+                        <li>
+                            <span class="day">Mardi</span>
+                            <span class="time">10h00 - 19h00</span>
+                        </li>
+                        <li>
+                            <span class="day">Mercredi</span>
+                            <span class="time">10h00 - 19h00</span>
+                        </li>
+                        <li>
+                            <span class="day">Jeudi</span>
+                            <span class="time">10h00 - 19h00</span>
+                        </li>
+                        <li>
+                            <span class="day">Vendredi</span>
+                            <span class="time">10h00 - 19h00</span>
+                        </li>
+                        <li>
+                            <span class="day">Samedi</span>
+                            <span class="time">10h00 - 18h00</span>
+                        </li>
+                        <li>
+                            <span class="day">Dimanche</span>
+                            <span class="time">Fermé</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Telstar 9</div>
+            <p class="footer-text">Réparation mobile, tablettes, PC et vente d'accessoires à Villeneuve-Saint-Georges (94190)</p>
+            <div class="social-links">
+                <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+            </div>
+            <p>&copy; 2025 Telstar 9 - Tous droits réservés - Villeneuve-Saint-Georges</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(102, 126, 234, 0.95)';
+                header.style.backdropFilter = 'blur(20px)';
+            } else {
+                header.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+                header.style.backdropFilter = 'blur(10px)';
+            }
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all fade-in elements
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add some interactive effects
+        document.querySelectorAll('.service-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(-10px) scale(1)';
+            });
+        });
+
+        // Add floating particles effect
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.style.cssText = `
+                position: fixed;
+                width: 4px;
+                height: 4px;
+                background: rgba(255, 107, 107, 0.3);
+                border-radius: 50%;
+                pointer-events: none;
+                z-index: -1;
+                left: ${Math.random() * 100}vw;
+                top: 100vh;
+                animation: float-up 8s linear forwards;
+            `;
+            
+            document.body.appendChild(particle);
+            
+            setTimeout(() => {
+                particle.remove();
+            }, 8000);
+        }
+
+        // Add CSS for particle animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes float-up {
+                to {
+                    transform: translateY(-100vh) rotate(360deg);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Create particles periodically
+        setInterval(createParticle, 3000);
+    </script>
+</body>
+</html>
